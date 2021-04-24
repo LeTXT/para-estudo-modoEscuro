@@ -11,6 +11,7 @@ body  {
     position: relative;
     margin: 0 auto;
     justify-content: center;
+    transition-duration: 0.95s;
 }
 .container.black {
     background: rgb(73, 73, 73);
@@ -21,19 +22,21 @@ body  {
     padding: 10px;
     border-radius: 2px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.192);
-    min-width: 300px;
-    max-width: 350px;
-    min-height: 150px;
+    min-width: 30%;
+    max-width: 50%;
+    min-height: 20%;
+    height: 40%;
     max-height: 200px;
     background: white;
     position: absolute;
     top: 50%;
     margin-top: -50px;
-
+    transition-duration: 0.9s;
 }
 .card.black {
     background: rgb(73, 73, 73);
     color: white;
+    
 }
 .botao {
     border-radius: 50%;
@@ -48,6 +51,8 @@ body  {
     outline: none;
     border: 1px black;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.123);
+    transition-duration: 0.9s;
+    
 }
 .botao2 {
     border-radius: 50%;
@@ -62,6 +67,8 @@ body  {
     outline: none;
     border: 1px black;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.514);
+    transition-duration: 0.9s;
+    
 }
 .scroll {
     background: rgb(50, 50, 255);
@@ -72,6 +79,7 @@ body  {
     position: absolute;
     display: relative;
     right: 20px;
+    transition-duration: 0.9s;
 }
 .scroll.black {
     background: white;
