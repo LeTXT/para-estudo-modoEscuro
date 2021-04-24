@@ -1,8 +1,9 @@
-body {
-    max-height: 100vh;
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+body  {
+    margin: 0;
 }
 .container {
+    z-index: 2000;
     height: 100vh;
     width: 100vw;
     background: white; 
@@ -19,7 +20,7 @@ body {
 .card {
     padding: 10px;
     border-radius: 2px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.192);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.192);
     min-width: 300px;
     max-width: 350px;
     min-height: 150px;
@@ -32,23 +33,54 @@ body {
 }
 .card.black {
     background: rgb(73, 73, 73);
+    color: white;
 }
 .botao {
     border-radius: 50%;
     height: 17px;
-    top: 1px;
+    width: 17px;
+    top: 2.7%;
     cursor: pointer;
+    background: white;
     display: absolute;
     position: absolute;
-    right: 10px;
+    right: 0.5px;
+    outline: none;
+    border: 1px black;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.123);
 }
 .botao2 {
     border-radius: 50%;
     height: 17px;
-    top: 1px;
+    width: 17px;
+    top: 2.7%;
     cursor: pointer;
-    background: blue;
+    background: white;
     display: absolute; 
     position: absolute; 
+    right: 17.2px;
+    outline: none;
+    border: 1px black;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.514);
+}
+.scroll {
+    background: rgb(50, 50, 255);
+    height: 18px;
+    width: 35px;
+    top: px;
+    border-radius: 12px;
+    position: absolute;
+    display: relative;
     right: 20px;
+}
+.scroll.black {
+    background: white;
+}
+
+p {
+    font-family: 'Montserrat', arial;
+}
+
+h1 {
+    font-family: 'Montserrat', arial;
 }
