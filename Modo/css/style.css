@@ -1,31 +1,54 @@
+body {
+    max-height: 100vh;
 
+}
 .container {
     height: 100vh;
     width: 100vw;
     background: white; 
     display: flex;
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
 }
 .container.black {
-    background: black;
+    background: rgb(73, 73, 73);
+    
 }
+
 .card {
-    padding: 100px;
+    padding: 10px;
     border-radius: 2px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.192);
-    width: 100px;
-    height: 100px;
-}
-.botao {
-    display: relative;
-    right: 10%;
-    border-radius: 2px;
-    height: 25px;
+    min-width: 300px;
+    max-width: 350px;
+    min-height: 150px;
+    max-height: 200px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
 
 }
+.card.black {
+    background: rgb(73, 73, 73);
+}
+.botao {
+    border-radius: 50%;
+    height: 17px;
+    top: 1px;
+    cursor: pointer;
+    display: absolute;
+    position: absolute;
+    right: 10px;
+}
 .botao2 {
-    display: relative;
-    right: 10%;
-    border-radius: 2px;
-    height: 25px;
-    background: blue; 
+    border-radius: 50%;
+    height: 17px;
+    top: 1px;
+    cursor: pointer;
+    background: blue;
+    display: absolute; 
+    position: absolute; 
+    right: 20px;
 }
