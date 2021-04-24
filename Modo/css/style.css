@@ -22,14 +22,14 @@ body  {
     padding: 10px;
     border-radius: 2px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.192);
-    min-width: 30%;
-    max-width: 50%;
+    width: 70%;
+    max-width: 300px;
     min-height: 20%;
     height: 40%;
     max-height: 200px;
     background: white;
     position: absolute;
-    top: 50%;
+    top: 40%;
     margin-top: -50px;
     transition-duration: 0.9s;
 }
